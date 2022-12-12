@@ -1488,3 +1488,141 @@ html[dir="ltr"] .join .form-group { width: 100%;}
 html[dir="ltr"] .join .form-control {padding: 7px 13px;}
 
 }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------- Books Page -----------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* ---------crumb-head---------- */
+.crumb-head{
+  background-color: var(--main-color);
+  
+  height: 175px;
+}
+.crumb-title{    display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 170px;}
+  .crumb-title h2{
+      position: relative;
+      color: #fff;
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-family: "tjBold";
+  }
+  .crumb-title h2::before {
+      content: "";
+      position: absolute;
+      width: 68px;
+      height: 4px;
+      left: 50%;
+      top:45px;
+      border-radius: 10px;
+      background-color: #BD892C;
+      transform: translateX(-50%);
+  }
+  .bread{display: flex;}
+  .bread li a{font-size: 18px;
+      color: #fff;
+      margin: 0px 5px;
+      font-family: "tjLight";
+      -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  
+  }
+  .bread li a:hover{color: var(--sec-color);}
+  .bread li {font-size: 18px;
+      color: #fff;
+      font-family: "tjLight";}
+
+
+      .section-books{padding-top: 55px;padding-bottom: 65px;}
+.books-sec{display: flex;
+    
+    flex-wrap: wrap;}
+.book-details{    width: 30%;
+    background-color: #F8F8F8;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 320px;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    margin: 15px;
+    position: relative;
+
+;}
+.book-details a{     border-radius: 10px;
+    display: block;
+    overflow: hidden;}
+
+.book-details:hover{
+    background-color: #dfdcdc;
+}
+
+.book-photo{border-radius: 10px;
+    overflow: hidden;}
+    .book-photo img{height: 320px;    min-width: 100%;}
+.book-title{display: flex;
+    padding: 0px 15px;
+    padding-top: 15px;
+    justify-content: start;}
+.book-title .ne-data{
+    margin-left: 15px;
+}
+
+.ne-p{
+  
+  
+  font-size: 20px;
+  font-family: "tjBold";
+  line-height: 0px;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  position: absolute;
+  background: linear-gradient(180deg, rgb(12 31 70 / 3%) 0%, rgb(12 32 72 / 50%) 25%, rgb(12 32 72 / 82%) 50%, rgb(12 32 72) 75%,#0c2048 100%);
+  border-radius: 0px 0px 10px 10px;
+  bottom: 0px;
+  width: 100%;
+  color: #fff;
+  height: 80px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-details:hover .ne-p{
+    color:  var(--sec-color);
+}
+@media(max-width:991px) {
+    .book-details {
+        width: 45%;}
+}
+@media(max-width:480px) {
+    .book-details {
+        width: 100%;}
+}
+
+.paginat-books{text-align: center;}
+.pagination>li>a, .pagination>li>span{color: var(--main-color);}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
