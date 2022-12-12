@@ -1626,3 +1626,71 @@ html[dir="ltr"] .join .form-control {padding: 7px 13px;}
     background-color: var(--main-color);
     border-color: var(--main-color);
 }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------- Book Page ------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+
+.section-book-one{padding-top: 55px;padding-bottom: 65px;}
+.book-details-one{display: flex;
+  }
+
+.book-img{    width: 30%;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 35px 0px;
+  background-color: #F8F8F8;
+  
+}
+.book-img .img-cont{width: 191.9px;
+
+  margin: auto;}
+  .book-img .img-cont img{height: 230px;
+    border-radius: 10px;
+    overflow: hidden;}  
+.book-title-one{
+  width: 70%;
+  background-color: #F8F8F8;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0px 15px;
+  padding: 5px 30px;
+}
+.book-title-one h3{
+  font-family: "tjBold";
+  font-size: 26px;
+  line-height: 1.73;
+  color:  var(--main-color);
+  font-family: "tjBold";}
+.book-title-one h4{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.79;
+  font-family: "tjMd";
+  color:   var(--text-color);
+}
+.book-title-one p{
+  font-size: 17px;
+  line-height: 1.5;
+  color:   var(--text-color);
+  font-family: "tjLight";
+}
+@media(max-width:480px) {
+  .book-details-one {
+    flex-wrap: wrap;
+}
+.book-img {
+  width: 100%;
+}
+.book-title-one {
+  width: 100%;
+  margin: 15px 0px;
+}
+}
