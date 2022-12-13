@@ -1616,7 +1616,7 @@ html[dir="ltr"] .join .form-control {padding: 7px 13px;}
         width: 100%;}
 }
 
-.paginat-books{text-align: center;}
+.paginat-books{text-align: center;padding-top: 60px;}
 .pagination>li>a, .pagination>li>span{color: var(--main-color);}
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
@@ -1692,5 +1692,194 @@ html[dir="ltr"] .join .form-control {padding: 7px 13px;}
 .book-title-one {
   width: 100%;
   margin: 15px 0px;
+}
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------- Articles Page ------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+.section-articles{padding-top: 55px;padding-bottom: 65px;}
+.articles-details{
+  background-color: #F8F8F8;
+  padding: 30px;
+  height: 290px;
+    margin-bottom: 30px;
+  border-radius: 10px;
+}
+  .articles-details h2{
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: "tjBold";
+    font-size: 25px;
+    line-height: 1.5;
+    color: var(--main-color);
+  }
+  .articles-details p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-family: "tjMd";
+  }
+  .articles-details a{
+    font-weight: 700;
+    width: 110px;
+    border: 1px solid #bd892c;
+    height: 46px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bd892c;
+    margin-top: 25px;
+  }
+  .articles-details a:hover{
+    background-color:#bd892c ;
+    color: #ffffff;
+  }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------- Article Page ------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+.section-article{padding-top: 55px;padding-bottom: 65px;}
+.article-details{
+  background-color: #F8F8F8;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.article-details h2{
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: "tjBold";
+  font-size: 25px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+.article-details p{
+  font-size: 16px;
+  font-family: "tjMd";
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------- Search Page ----------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+.search-bar.advance-search{
+  flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    height: 125px;
+}
+.search-bar.advance-search .form-group {
+  width: 94%;
+}
+.button-advance{ margin-top: 10px;display: flex;
+  align-items: center;}
+  .button-advance h3{margin: 0;
+    color: #ffff;
+    font-size: 16px;font-family: "tjLight";}
+    .button-advance .search-adv{
+      border-radius: 10px;}
+.search-adv.one{background-color: #0c8d0d;}
+.search-adv.two{background-color: #5e5a53;}
+.search-adv.thr{background-color: #af1223;}
+.search-adv.four{background-color: #878484;}
+.advance-search.search-bar .form-control{border-radius: 10px;}
+.advance-search.search-bar .check{border-radius: 9px;}
+.section-search{padding-bottom: 65px;}
+.section-search h3{
+  font-size: 18px;
+    margin-bottom: 40px;
+}
+.card-result{
+  background-color: #F8F8F8;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+    align-items: start;
+}
+.search-results{display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;}
+.card-result .photo-result{}
+.card-result .photo-result img{
+  max-height: 90px; 
+    max-width: 90px; 
+    height: 90px; 
+    width: 90px; 
+}
+.date-result h3{
+  font-family: "tjBold";
+    font-size: 20px;
+    margin: 0;
+}
+.date-result p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-family: "tjMd";
+  margin: 10px 0px;
+}
+.date-result a{
+  font-weight: 700;
+  width: 110px;
+  border: 1px solid var(--main-color);
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  margin-top: 10px;
+}
+.date-result{margin: 0px 25px;}
+.date-result a:hover{
+  background-color:var(--main-color);
+    color: #ffffff;
+}
+@media(max-width:480px) {
+  .crumb-head.sea-adv {
+    height: auto;
+}
+.search-bar.advance-search{height: auto;    margin-bottom: 20px;}
+.button-advance{flex-wrap: wrap;}
+.button-advance h3{margin: auto;
+  margin-bottom: 10px;}
+  .button-advance .search-adv {
+    margin-bottom: 5px;
 }
 }
