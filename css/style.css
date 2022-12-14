@@ -1676,6 +1676,26 @@ html[dir="ltr"] .join .form-control {padding: 7px 13px;}
   font-family: "tjMd";
   color:   var(--text-color);
 }
+.download-book{
+  width: 55%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(12 32 72);
+  border: 1px solid transparent;
+  font-size: 16px;
+  color: #fff;
+  font-family: "tjMd";
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+.download-book:hover{opacity: 0.7;}
 .book-title-one p{
   font-size: 17px;
   line-height: 1.5;
@@ -1883,3 +1903,198 @@ html[dir="ltr"] .join .form-control {padding: 7px 13px;}
     margin-bottom: 5px;
 }
 }
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*-------------------------About Page ---------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+.about-clients{padding-top: 50px;}
+.about-dr{padding-top: 50px;padding-bottom: 80px;}
+h3.about-client-title{
+  display: block;
+  text-transform: uppercase;
+ 
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--main-color);
+  margin: 0 0 30px;
+}
+p.about-sec-client{
+  font-size: 20px;
+  font-weight: 500;
+}
+.about-sec-client h4{
+  font-size: 20px;
+    color: var(--main-color);
+    line-height: 1.643;
+    font-weight: 900;
+}
+.about-sec-client span{
+  color:  var(--sec-color);
+  font-weight: 600;
+  margin: 0px 15px;
+}
+.about-client-title .xs-client::after {
+  margin: 8px auto 0;
+}
+ .about-client-title::after {
+  width: 52px;
+  height: 2px;
+  content: "";
+  display: block;
+  background-color:  var(--sec-color);
+  margin-top: 8px;
+}
+.about-sec-client{
+  background-color: #efefef;
+    padding: 35px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: var(--main-color);
+    line-height: 1.643;
+}
+.about-dr .contact{display: flex;
+  align-items: center;
+  justify-content: center;}
+.about-dr .contact a{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffff;
+    background-color: var(--main-color);
+    width: 150px;
+    height: 41px;
+    border-radius: 10px;
+    margin: 0px 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.about-dr .contact a:hover{background-color: var(--sec-color);}
+@media(max-width:480px) {
+  .about-sec-client{padding: 25px 15px;}
+  .about-sec-client h4{display: flex;}
+  h3.about-client-title {
+    font-size: 23px;
+    margin: 0 0 25px;
+}
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*-------------------------Contact Us Page ----------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+.contact-us.details {
+  
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  margin-top: 70px;
+  background-color: #efefef;
+    padding: 35px;
+    border-radius: 25px;
+}
+.contact-us.details .f-ti li > i {
+  width: 33px;
+  height: 33px;
+  background-color: #ffffff;
+  color: var(--main-color);
+  font-size: 18px;
+  border-radius: 50%;
+  line-height: 33px;
+  text-align: center;
+  margin: 0px 10px;
+  margin-bottom: 15px;
+}
+.social-foot.contact i {
+  color: var(--main-color);
+  text-align: center;
+  margin: 10px 7px;
+  width: 33px;
+  height: 33px;
+  background-color: #ffffff;
+  line-height: 33px;
+  border-radius: 50%;
+}
+.contact-us.details h2 {
+  font-size: 25px;
+  font-family: "tjBold";
+  margin-bottom: 45px;
+}
+.social-foot.contact h3 {
+  font-size: 20px;
+  font-family: "tjBold";
+  margin-bottom: 30px;
+}
+@media(max-width:480px) {
+  .contact-us.details h2 {
+    text-align: center;
+}
+.contact-us.details .f-ti li{flex-direction: column;}
+.social-foot.contact i {
+  margin: 0px 4px;}
+}
+
+
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*-------------------------Sound Page ---------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+.section-sound{padding-top: 60px;padding-bottom: 80px;}
+.sound-sec,.video-sec{display: flex;flex-wrap: wrap;justify-content: start;padding-bottom: 50px;}
+.card-sound{    background-color: rgb(12 32 72 / 24%);
+  padding: 35px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 350px;
+}
+.card-sound span{font-size: 20px;color: var(--main-color);
+  font-weight: 700;margin-top: 15px;    text-align: center;}
+  @media(max-width:991px) {
+    .card-sound{width: 45%;}
+  }
+  @media(max-width:991px) {
+    .card-sound{width: 75%;}
+    .sound-sec, .video-sec {
+      justify-content: center;
+  }
+  }
+  @media(max-width:425px) {
+    .card-sound{width: 100%;padding: 22px 35px;}
+    .section-sound {
+
+       padding-bottom: 0px;
+  }
+  .paginat-books {
+    padding-top: 0px;
+}
+     }
